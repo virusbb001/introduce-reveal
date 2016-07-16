@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>reveal.js</title>
+
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/black.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+var link = document.createElement( 'link' );
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+ </head>
+ <body>
+  <div class="reveal">
+   <div class="slides">
+    <section>
+     <h1>自己紹介</h1>
+     <p>Slack: @virus</p>
+    </section>
+    <section>
+     <h1>Who am I?</h1>
+     <p>HN: virus</p>
+     <p>twitter: @virusVer001</p>
+     <p>出身校: 木更津高等専門学校</p>
+     <p>所在地: 福井県鯖江市</p>
+     <p>職業:プログラマー</p>
+    </section>
+    <section>
+     <h1>Slack Icon</h1>
+     <img src="redbox.png" alt="" style="width: 50%; height: 50%;">
+    </section>
+    <section>
+     <h1>Twitter Icon</h1>
+     <img src="TwitterIconEquilateralTriangle.png" alt="" style="background: #ffffff;">
+    </section>
+    <section>
+     <h1>What am I using?</h1>
+     <ul>
+      <li>OS X</li>
+      <li>Zsh</li>
+      <li>Vim</li>
+      <li>Javascript (メイン/趣味/仕事)</li>
+      <li>Swift (仕事)</li>
+     </ul>
+    </section>
+   </div>
+  </div>
+
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+
+  <script>
+// More info https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+ history: true,
+
+ // More info https://github.com/hakimel/reveal.js#dependencies
+ dependencies: [
+ { src: 'plugin/markdown/marked.js' },
+ { src: 'plugin/markdown/markdown.js' },
+ { src: 'plugin/notes/notes.js', async: true },
+ { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+ ]
+});
+  </script>
+ </body>
+</html>
